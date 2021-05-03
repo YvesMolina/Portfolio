@@ -16,9 +16,14 @@
   "dependencies": {
     "bootstrap": "^4.6.0",
     "gatsby": "^3.4.0",
+    "gatsby-plugin-image": "^1.4.0",
+    "gatsby-plugin-sharp": "^3.4.0",
+    "gatsby-source-filesystem": "^3.4.0",
+    "gatsby-transformer-sharp": "^3.4.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.1",
+    "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.2"
   },
   "devDependencies": {
