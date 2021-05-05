@@ -20,7 +20,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'project.png',
     title: 'Portfolio Gatsby/React.js',
     info: 'Site vitrine monopage présentant mon parcours, mes objectifs professionnels et mes projets',
     info2: 'Site web créé avec Gatsby JS, stylisé avec Boostrap v4.6 et du SCSS personnalisé. La vitesse de chargement de la page et des images est optimisée par la gestion de fichiers gatsby.\n Site 100% responsive.',
