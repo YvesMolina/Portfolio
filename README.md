@@ -22,7 +22,7 @@
   <h3 align="center">Yves Molina Portfolio</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A simple and modern portfolio website.
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">See live</a>
     ·
@@ -77,11 +77,11 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
-
+· [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+· [Gatsby](https://www.gatsbyjs.org/) - Gatsby enables developers to build fast, secure, and powerful websites using a React-based framework and innovative data layer.
+· [Bootstrap 4](https://getbootstrap.com/) - World’s most popular front-end open source toolkit.
+· [Sass](https://sass-lang.com/) - Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
+· [GraphQL](https://graphql.org/) - Query language for APIs and a runtime for fulfilling those queries with your existing data.
 
 
 <!-- GETTING STARTED -->
@@ -120,13 +120,7 @@ You will need to have [Node.js](https://nodejs.org/en/download/), [Gatsby CLI](h
 
 Deployed on [ymolina.com](https://ymolina.com) using [Netlify](https://netlify.com), a really useful tool to easily deploy git repositories as websites for free.
 
-## Built with
 
-· [React](https://reactjs.org/) - A JavaScript library for building user interfaces
-· [Gatsby](https://www.gatsbyjs.org/) - Gatsby enables developers to build fast, secure, and powerful websites using a React-based framework and innovative data layer.
-· [Bootstrap 4](https://getbootstrap.com/) - World’s most popular front-end open source toolkit.
-· [Sass](https://sass-lang.com/) - Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
-· [GraphQL](https://graphql.org/) - Query language for APIs and a runtime for fulfilling those queries with your existing data.
 
 <!-- LICENSE -->
 ## License
@@ -141,23 +135,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Yves Molina - YvesTMolina@gmail.com
 
 Project Link: [https://github.com/YvesMolina/Portfolio](https://github.com/YvesMolina/Portfolio)
-
-
-
-<!-- TOOLS USED -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
 
 
 
