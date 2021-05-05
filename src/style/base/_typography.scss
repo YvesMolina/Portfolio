@@ -56,8 +56,8 @@ a:hover {
 .text-color-hero{
   font-size: 13.2rem;
   @include respond(phone) {
-    font-size: 6rem;
-    line-height: 1.5;
+    font-size: 8rem;
+    line-height: normal;
   }
   background-image: linear-gradient(
     135deg,
