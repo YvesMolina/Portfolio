@@ -21,13 +21,13 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: 'Portfolio React.js',
-    info: 'Site vitrine monopage présentant mon profil de développeur, mon parcours et mes objectifs professionnels',
-    info2: 'Créé avec React, stylisé avec Boostrap v4.6 et du SCSS personnalisé. La vitesse de chargement de la page et des images est optimisée par la gestion de fichiers gatsby.\n Site 100% responsive.',
+    title: 'Portfolio Gatsby/React.js',
+    info: 'Site vitrine monopage présentant mon parcours, mes objectifs professionnels et mes projets',
+    info2: 'Site web créé avec Gatsby JS, stylisé avec Boostrap v4.6 et du SCSS personnalisé. La vitesse de chargement de la page et des images est optimisée par la gestion de fichiers gatsby.\n Site 100% responsive.',
     url: 'https://ymolina.com/',
     repo: 'https://github.com/YvesMolina/Portfolio',
   },
-  /* Free space for future projects to come... (My next work in progress is a Java Financial Web application is m!)
+  /* Free space for future projects to come... (My next work in progress is a Java Financial Web application !)
   {
     id: nanoid(),
     img: 'project.jpg',
@@ -35,7 +35,7 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/YvesMolina', // if no repo, the button will not show up
+    repo: 'https://github.com/YvesMolina',
   },
   {
     id: nanoid(),
@@ -44,15 +44,15 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/YvesMolina/PortFolio', // if no repo, the button will not show up
+    repo: 'https://github.com/YvesMolina/PortFolio',
   },*/
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Vous souhaitez travailler avec moi ? N\'hésitez pas, contactez moi !',
+  btn: 'YvesTMolina@gmail.com',
+  email: 'yvestmolina@gmail.com',
 };
 
 // FOOTER DATA
@@ -60,23 +60,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/yves-molina/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/YvesMolina',
     },
   ],
 };

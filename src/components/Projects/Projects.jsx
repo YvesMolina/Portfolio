@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from "react"
 import Fade from "react-reveal/Fade"
-import Tilt from "react-parallax-tilt"
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
@@ -85,11 +84,7 @@ const Projects = () => {
                         aria-label="Project Link"
                         rel="noopener noreferrer"
                       >
-                        <Tilt scale={1.2} transitionspeed={2500}>
-                          <div data-tilt className="thumbnail rounded">
-                            <ProjectImg alt={title} filename={img} />
-                          </div>
-                        </Tilt>
+                        <ProjectImg className="thumbnail" alt={title} filename={img} />
                       </a>
                     </div>
                   </Fade>
