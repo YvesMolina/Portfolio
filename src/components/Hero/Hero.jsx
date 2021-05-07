@@ -6,7 +6,7 @@ import PortfolioContext from "../../context/context";
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
-  const { name, status, scrollButton } = hero;
+  const { name, status } = hero;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -39,9 +39,13 @@ return (
         <Fade bottom duration={1000} delay={2500} distance="30px">
           <p className="hero-cta">
               <Link to="about" smooth duration={1000}>
-            <span className="cta-btn cta-btn--hero">
+            {/* Other style with "Know more" button and gradient animation
+             <span className="cta-btn cta-btn--hero">
                 {scrollButton}
-            </span>
+            </span> */}
+            <i className="fa fa-chevron-circle-down fa-3x hover" aria-hidden="true"                        target="_blank"
+                        rel="noopener noreferrer"
+ />
               </Link>
           </p>
         </Fade>

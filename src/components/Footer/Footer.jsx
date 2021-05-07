@@ -34,13 +34,12 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Site internet réalisé par{" "}
+          © {new Date().getFullYear()} - Site internet réalisé par {"Yves Molina"}
           <a
             href="https://github.com/YvesMolina"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Yves Molina
           </a>
         </p>
       </Container>

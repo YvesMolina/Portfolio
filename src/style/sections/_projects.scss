@@ -50,7 +50,7 @@
     }
 
     &__image {
-      width: 90%;
+      width: 87%;
       margin: 0 auto;
 
       @include respond(tab-land) {
@@ -61,16 +61,16 @@
       & .thumbnail {
         border: none;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-        transition: all 0.2s ease-out;
-        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
-        transition: 0.5s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
-          0.5s box-shadow,
-          0.5s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
-
+        transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
         @include respond(phone) {
           border: 1px solid #d2d2d2;
           box-shadow: none;
           margin-bottom: 3.2rem;
+        }
+        &:hover {
+          box-shadow: 0 17px 40px rgba(0, 0, 0, 0.16),
+            0 17px 40px rgba(0, 0, 0, 0.23);
+          transform: scale(1.04);
         }
       }
     }

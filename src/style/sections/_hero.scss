@@ -15,8 +15,6 @@
   right: 0;
   z-index: -1;
 
-
-
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
   /* background: url("/src/assets/[your-image].png");
@@ -31,7 +29,7 @@
     font-size: 5.6rem;
     font-weight: 700;
     text-align: center;
-  
+
     @include respond(tab-land) {
       font-size: 4rem;
     }
@@ -53,7 +51,7 @@
     font-weight: 700;
     text-align: center;
     margin-bottom: 3rem;
-  
+
     @include respond(tab-land) {
       font-size: 4rem;
     }
@@ -70,7 +68,6 @@
     }
   }
 
-
   .hero-cta {
     display: flex;
     justify-content: center;
@@ -86,5 +83,15 @@
         font-size: 2rem;
       }
     }
+  }
+}
+.hover {
+  cursor: pointer;
+  color: linear-gradient(0deg,#2c7da0, #20678b, #155275, #0a3d5f, #012a4a);
+  display: inline-block;
+  position: relative;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+  &:hover {
+    transform: translateY(6px);
   }
 }

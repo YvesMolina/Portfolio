@@ -79,12 +79,14 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={url || "#!"}
+                        href={url}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
                       >
-                        <ProjectImg className="thumbnail" alt={title} filename={img} />
+                        <div className="thumbnail"> 
+                          <ProjectImg alt={title} filename={img} />
+                        </div>
                       </a>
                     </div>
                   </Fade>
