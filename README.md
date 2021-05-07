@@ -25,7 +25,7 @@
     A simple and modern portfolio website.
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">See live</a>
-    ·
+    
   </p>
 </p>
 
