@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container"
 import Fade from "react-reveal/Fade"
 import { Link } from "react-scroll"
 import PortfolioContext from "../../context/context"
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext)
