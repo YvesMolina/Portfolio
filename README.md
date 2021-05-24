@@ -24,7 +24,7 @@
   <p align="center">
     A simple and modern portfolio website.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">See live</a>
+    <a href="https://ymolina.com/">See live</a>
     
   </p>
 </p>
@@ -67,11 +67,11 @@
 
 ### Built With
 
-· [React](https://reactjs.org/) - A JavaScript library for building user interfaces
-· [Gatsby](https://www.gatsbyjs.org/) - Gatsby enables developers to build fast, secure, and powerful websites using a React-based framework and innovative data layer.
-· [Bootstrap 4](https://getbootstrap.com/) - World’s most popular front-end open source toolkit.
-· [Sass](https://sass-lang.com/) - Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
-· [GraphQL](https://graphql.org/) - Query language for APIs and a runtime for fulfilling those queries with your existing data.
+* [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+* [Gatsby](https://www.gatsbyjs.org/) - Gatsby enables developers to build fast, secure, and powerful websites using a React-based framework and innovative data layer.
+* [Bootstrap 4](https://getbootstrap.com/) - World’s most popular front-end open source toolkit.
+* [Sass](https://sass-lang.com/) - Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
+* [GraphQL](https://graphql.org/) - Query language for APIs and a runtime for fulfilling those queries with your existing data.
 
 
 <!-- GETTING STARTED -->
