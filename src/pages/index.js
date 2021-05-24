@@ -12,16 +12,14 @@ class Home extends React.Component {
           <meta charSet="utf-8" />
           <html lang="fr" />
           <title>Yves Molina Développeur</title>
-          <description>test</description>
-          <meta name="description" content="My description2"/>
           <meta
-            property="og:description"
+            name="description"
             content="Portfolio de développement - Yves Molina"
           />
           <meta
             property="og:image"
             itemProp="image"
-            content="./images/project.jpg"
+            content="../images/project.jpg"
           />
         </Helmet>
         <App />
