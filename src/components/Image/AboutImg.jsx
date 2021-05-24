@@ -12,7 +12,7 @@ const AboutImg = ({ filename, alt }) => (
         relativePath
         name
         childImageSharp {
-          gatsbyImageData(width: 350, layout: FIXED)
+          gatsbyImageData(width: 350, layout: FIXED, quality: 100)
         }
       }
     }
