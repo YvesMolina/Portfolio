@@ -9,13 +9,10 @@ export default function Home() {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <meta property='og:image' content='../images/project.jpg'/>
-        <title>{"Yves Molina Développeur"}</title>
-        <html lang={"fr"} />
-        <meta
-          name="description"
-          content={"Portfolio de développement - Yves Molina"}
-        />
+        <html lang="fr" />
+        <title>Yves Molina Développeur</title>
+        <meta property="og:description" content="Portfolio de développement - Yves Molina"/>
+        <meta property="og:image" itemProp="image" content="./images/project.jpg"/>
       </Helmet>
 
       <App />
