@@ -20,7 +20,7 @@ class Home extends React.Component {
           <meta
             property="og:image"
             itemProp="image"
-            content="static/590c105651e00370ac7f421b3e7cb6ef/f0ff6/profile.jpg"
+            content="static/ed9c2a929c5c070ebfd92b3521b8c6cc/cd6c3/project.webp"
           />
         </Helmet>
         <App />
