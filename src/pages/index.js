@@ -12,14 +12,15 @@ class Home extends React.Component {
           <meta charSet="utf-8" />
           <html lang="fr" />
           <title>Yves Molina Développeur</title>
+          <link rel="canonical" href="https://ymolina.com" />
           <meta
             name="description"
-            content="Portfolio de développement - Yves Molina"
+            content="Portfolio présentant mon expérience en développement et mes projets"
           />
           <meta
             property="og:image"
             itemProp="image"
-            content="../images/project.jpg"
+            content="./static/590c105651e00370ac7f421b3e7cb6ef/f0ff6/profile.jpg"
           />
         </Helmet>
         <App />
