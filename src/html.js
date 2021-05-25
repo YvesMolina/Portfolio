@@ -16,10 +16,11 @@ export default function HTML({
   return (
     <html {...htmlAttributes}>
       <head>
-        <meta charSet="utf-8" />
+        <meta charSet="utf-8" data-react-helmet="true"/>
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta property='og:image' content='images/project.jpg'/>
+        <meta name="description" content="Portfolio de développement - Yves Molina" data-react-helmet="true"/>
+        <meta property='og:image' content='images/project.jpg' data-react-helmet="true"/>
         {headComponents}
       </head>
       <body {...bodyAttributes}>
